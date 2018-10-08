@@ -6,7 +6,7 @@ Graduate Research Assistant <br />
 
 110 8th Street, Troy, NY 12180 <br />
 Office: Amos Eaton 429 <br />
-Email: abhich@rpi.edu <br />
+Email: <a href="mailto:abhi.achoudhary@gmail.com">Abhishek Choudhary</a> <br />
 
 ### Research Interests
 Probabiliy, stochastic processes, mathemtical modeling <br />
