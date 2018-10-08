@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+## Abhishek Choudhary
 
-You can use the [editor on GitHub](https://github.com/abhiachoudhary/abhiachoudhary.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Graduate Research Assistant
+<a href="https://science.rpi.edu/mathematical-sciences">Department of Mathematical Sciences</a>
+<a href="http://www.rpi.edu/">Rensselaer Polytechnic Institute</a>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+110 8th Street, Troy, NY 12180
+Office: Amos Eaton 429
+Email: abhich@rpi.edu
 
-### Markdown
+### Research Interests
+Probabiliy, stochastic processes, mathemtical modeling
+You can find my CV <a href="yet to be updated">here</a>.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/abhiachoudhary/abhiachoudhary.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
