@@ -1,6 +1,6 @@
 ## Abhishek Choudhary
 
-Graduate Research Assistant
+Graduate Research Assistant </br>
 <a href="https://science.rpi.edu/mathematical-sciences">Department of Mathematical Sciences</a></br>
 <a href="http://www.rpi.edu/">Rensselaer Polytechnic Institute</a></br>
 
