@@ -9,5 +9,5 @@ Office: Amos Eaton 429 <br />
 Email: <a href="mailto:abhi.achoudhary@gmail.com">Abhishek Choudhary</a> <br />
 
 ### Research Interests
-Probabiliy, stochastic processes, mathemtical modeling <br />
+Probability, stochastic processes, mathematical modeling <br />
 You can find my CV <a href="yet to be updated">here</a>. <br />
