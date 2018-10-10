@@ -10,4 +10,5 @@ Email: <a href="mailto:abhi.achoudhary@gmail.com">Abhishek Choudhary</a> <br />
 
 ### Research Interests
 Probability, stochastic processes, mathematical modeling <br />
+Game theory, evolutionary biology
 You can find my CV <a href="yet to be updated">here</a>. <br />
