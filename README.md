@@ -12,4 +12,4 @@ Email: <a href="mailto:abhi.achoudhary@gmail.com">Abhishek Choudhary</a> <br />
 Probability, stochastic processes, mathematical modeling <br />
 Game theory, evolutionary biology <br />
 
-You can find my CV <a href="yet to be updated">here</a>. <br />
+You can find my CV <a href="https://github.com/abhiachoudhary/abhiachoudhary.github.io">here</a>. <br />
