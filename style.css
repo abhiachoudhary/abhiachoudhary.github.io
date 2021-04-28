@@ -9,6 +9,12 @@ html {
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
+
+input, textarea { 
+ unicode-bidi:bidi-override; 
+ direction: RTL; 
+}
+
 a {
 	text-decoration: none;
 }
