@@ -60,7 +60,7 @@ function myFunction() {
 }
 </script>
 
-super6
+super6=7
 
 </body>
 </html>
