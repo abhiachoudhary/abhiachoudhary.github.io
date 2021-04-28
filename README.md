@@ -15,7 +15,13 @@ Game theory, evolutionary biology <br />
 <!-- You can find my CV <a href="http://abhiachoudhary.github.io/docs/CV_Abhishek_Choudhary.pdf">here</a>. <br /> -->
 You can find my CV <a href="https://github.com/abhiachoudhary/abhiachoudhary.github.io/raw/master/docs/CV_Abhishek_Choudhary.pdf">here</a>. <br />
 
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
 <body>
 
 <h3>Cool reverse typing box</h3>
