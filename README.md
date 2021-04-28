@@ -41,3 +41,19 @@ server called "action_page.php".</p>
 </html>
 
 super2
+
+
+
+function rtl(element)
+{   
+    if(element.setSelectionRange){
+        element.setSelectionRange(0,0);
+    }
+}
+
+
+
+
+<input type="text" name="textbox" style="direction:RTL;" onkeyup="rtl(this);"/>
+
+super3
