@@ -27,7 +27,7 @@ You can find my CV <a href="https://github.com/abhiachoudhary/abhiachoudhary.git
 <h3>Cool reverse typing box</h3>
 
 <form action="/action_page.php">
-<label for="w3review">Review of W3Schools:</label>
+<label for="w3review">Reverse typing box:</label>
 <textarea id="w3review" name="w3review" rows="4" cols="50">
   Just start typing in the text area.
   </textarea>
