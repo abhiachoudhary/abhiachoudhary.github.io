@@ -43,14 +43,14 @@ server called "action_page.php".</p>
 super2
 
 
-
+<script>
 function rtl(element)
 {   
     if(element.setSelectionRange){
         element.setSelectionRange(0,0);
     }
 }
-
+</script>
 
 
 
