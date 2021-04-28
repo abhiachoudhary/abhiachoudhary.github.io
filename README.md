@@ -28,20 +28,12 @@ You can find my CV <a href="https://github.com/abhiachoudhary/abhiachoudhary.git
 
 <form action="/action_page.php">
 <label for="w3review">Reverse typing box:</label>
-<textarea id="w3review" name="reverse_text_box" dir="rtl" rows="4" cols="50">
+<textarea id="reverse_text_box0" name="reverse_text_box0" dir="rtl" rows="4" cols="50">
   Just start typing in the text area.
   </textarea>
   <br><br>
   <input type="submit" value="Submit">
 </form>
-
-<p>Click the "Submit" button and the form-data will be sent to a page on the 
-server called "action_page.php".</p>
-</body>
-</html>
-
-super2
-
 
 <script>
 function rtl(element)
@@ -52,10 +44,7 @@ function rtl(element)
 }
 </script>
 
-
-
-<input type="text" name="textbox" style="direction:RTL;" onkeyup="rtl(this);"/>
-
+<textarea id="reverse_text_box" name="reverse_text_box" dir="rtl" rows="4" cols="50" onkeyup="rtl(this)>
 
 <p>A function is triggered when the user releases a key in the input field. The function outputs the actual key/letter that was released inside the text field.</p>
 
@@ -70,4 +59,7 @@ function myFunction() {
 }
 </script>
 
-super5
+super6
+
+</body>
+</html>
