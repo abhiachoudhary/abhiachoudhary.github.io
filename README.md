@@ -15,4 +15,22 @@ Game theory, evolutionary biology <br />
 <!-- You can find my CV <a href="http://abhiachoudhary.github.io/docs/CV_Abhishek_Choudhary.pdf">here</a>. <br /> -->
 You can find my CV <a href="https://github.com/abhiachoudhary/abhiachoudhary.github.io/raw/master/docs/CV_Abhishek_Choudhary.pdf">here</a>. <br />
 
-Hi there.
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The textarea element</h1>
+
+<form action="/action_page.php">
+<label for="w3review">Review of W3Schools:</label>
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+  At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+  </textarea>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+</body>
+</html>
