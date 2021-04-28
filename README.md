@@ -56,6 +56,7 @@ Just start typing in the text area below.
 
 <form>
    <textarea id="reverse_text_box" name="reverse_text_box" rows="10" cols="100" onkeyup="my_fun(this);"></textarea>
+    <!-- <textarea id="reverse_text_box" name="reverse_text_box" dir="rtl" rows="10" cols="100" onkeyup="my_fun(this);"></textarea> -->
     <!--    <input type="text" name="textbox" style="direction:RTL;" onkeyup="my_fun(this);"/>  -->
     <br>
     <input type="reset" />
