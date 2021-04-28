@@ -56,4 +56,4 @@ function rtl(element)
 
 <input type="text" name="textbox" style="direction:RTL;" onkeyup="rtl(this);"/>
 
-super3
+super4
