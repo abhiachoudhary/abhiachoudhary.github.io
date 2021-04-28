@@ -20,6 +20,12 @@ You can find my CV <a href="https://github.com/abhiachoudhary/abhiachoudhary.git
   <meta charset="UTF-8">
   <!-- meta name="viewport" content="width=device-width, initial-scale=1.0" -->
   <!-- <link rel="stylesheet" href="style.css"> -->
+  <style> 
+    input, textarea { 
+    unicode-bidi:bidi-override; 
+    direction: RTL; 
+  }
+  </style>
   <!-- title>My Website</title -->
 </head>
 <body>
@@ -29,33 +35,27 @@ You can find my CV <a href="https://github.com/abhiachoudhary/abhiachoudhary.git
 <!---using https://stackoverflow.com/questions/7524855/right-to-left-text-html-input -->
 <!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_textarea -->
 
-
 <script>
 function reverseString(str) {
     return str.split("").reverse().join("");
 }
 function my_fun(element)
 {   
-    if(element.setSelectionRange){
-        element.setSelectionRange(0,0);
-    }
+    //if(element.setSelectionRange){ //doing this way meant slow typing
+      //  element.setSelectionRange(0,0);
+    //}
   var x = document.getElementById("reverse_text_box").value;
-  document.getElementById("demo").innerHTML = x;
-  document.getElementById("demo2").innerHTML = reverseString(x);
-}
-function my_fun2(element)
-{   
-  var x = document.getElementById("reverse_text_box").value;
-  document.getElementById("demo").innerHTML = x;
-  document.getElementById("demo2").innerHTML = reverseString(x);
+  document.getElementById("demo2").innerHTML = x;
+  document.getElementById("demo").innerHTML = reverseString(x);
 }
 </script>
-Just start typing in the text area below.
 
+Just start typing in the text area below.
 <p>A function is triggered when the user releases a key in the input field. The function outputs the actual key/letter that was released inside the text field, and also the reverse of it.</p>
-<p style="color:red">Note that the speed of typing needs to be reasonably slow to allow the backend program to adjust cursor position.</p>
+<!-- <p style="color:red">Note that the speed of typing needs to be reasonably slow to allow the backend program to adjust cursor position.</p> -->
+
 <form>
-   <textarea id="reverse_text_box" name="reverse_text_box" rows="10" cols="100" onkeyup="my_fun2(this);"></textarea>
+   <textarea id="reverse_text_box" name="reverse_text_box" rows="10" cols="100" onkeyup="my_fun(this);"></textarea>
     <!--    <input type="text" name="textbox" style="direction:RTL;" onkeyup="my_fun(this);"/>  -->
     <br>
     <input type="reset" />
@@ -63,6 +63,7 @@ Just start typing in the text area below.
 
 <p>What you wrote: <span id="demo"></span></p>
 <p>The reverse is: <span id="demo2"></span></p>
+
 
 </body>
 </html>
