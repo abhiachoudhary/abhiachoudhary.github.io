@@ -28,7 +28,7 @@ You can find my CV <a href="https://github.com/abhiachoudhary/abhiachoudhary.git
 
 <form action="/action_page.php">
 <label for="w3review">Reverse typing box:</label>
-<textarea id="w3review" name="w3review" rows="4" cols="50">
+<textarea id="w3review" name="reverse_text_box" style="text-align: right;" rows="4" cols="50">
   Just start typing in the text area.
   </textarea>
   <br><br>
