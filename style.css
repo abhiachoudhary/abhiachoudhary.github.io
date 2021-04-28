@@ -1,1 +1,5 @@
 
+input, textarea { 
+ unicode-bidi:bidi-override; 
+ direction: RTL; 
+}
