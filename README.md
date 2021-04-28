@@ -35,6 +35,7 @@ You can find my CV <a href="https://github.com/abhiachoudhary/abhiachoudhary.git
   <input type="submit" value="Submit">
 </form>
 
+<!---using https://stackoverflow.com/questions/7524855/right-to-left-text-html-input -->
 <script>
 function rtl(element)
 {   
