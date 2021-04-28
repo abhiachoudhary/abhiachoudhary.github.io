@@ -26,14 +26,9 @@ You can find my CV <a href="https://github.com/abhiachoudhary/abhiachoudhary.git
 
 <h3>Cool reverse typing box</h3>
 
-<form action="/action_page.php">
-<label for="w3review">Reverse typing box:</label>
 <textarea id="reverse_text_box0" name="reverse_text_box0" dir="rtl" rows="4" cols="50">
   Just start typing in the text area.
   </textarea>
-  <br><br>
-  <input type="submit" value="Submit">
-</form>
 
 <!---using https://stackoverflow.com/questions/7524855/right-to-left-text-html-input -->
 <script>
@@ -46,7 +41,7 @@ function rtl(element)
 </script>
 
 <input type="text" name="textbox" style="direction:RTL;" onkeyup="rtl(this);"/>
-
+<textarea id="reverse_text_box" name="reverse_text_box" dir="rtl" rows="4" cols="50" onkeyup="rtl(this);"></textarea>
 
 <p>A function is triggered when the user releases a key in the input field. The function outputs the actual key/letter that was released inside the text field.</p>
 
@@ -61,7 +56,7 @@ function myFunction() {
 }
 </script>
 
-super1
+super2
 
 </body>
 </html>
