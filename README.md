@@ -32,7 +32,7 @@ function reverseString(str) {
     return str.split("").reverse().join("");
 }
 
-function rtl(element)
+function my_fun(element)
 {   
     if(element.setSelectionRange){
         element.setSelectionRange(0,0);
@@ -41,14 +41,23 @@ function rtl(element)
   document.getElementById("demo").innerHTML = x;
   document.getElementById("demo2").innerHTML = reverseString(x);
 }
+function makeDelay(ms) {
+    var timer = 0;
+    return function(callback){
+        clearTimeout (timer);
+        timer = setTimeout(callback, ms);
+    };
+};
+var delay = makeDelay(250);
+$(reverse_text_box).on('keyup', function() {delay(someCallback);});
 </script>
 Just start typing in the text area below.
 
 <p>A function is triggered when the user releases a key in the input field. The function outputs the actual key/letter that was released inside the text field, and also the reverse of it.</p>
 
 <form>
-   <textarea id="reverse_text_box" name="reverse_text_box" dir="rtl" rows="10" cols="100" onkeyup="rtl(this);"></textarea>
-    <!--    <input type="text" name="textbox" style="direction:RTL;" onkeyup="rtl(this);"/>  -->
+   <textarea id="reverse_text_box" name="reverse_text_box" dir="rtl" rows="10" cols="100" onkeyup="my_fun(this);"></textarea>
+    <!--    <input type="text" name="textbox" style="direction:RTL;" onkeyup="my_fun(this);"/>  -->
     <br>
     <input type="reset" />
 </form>
@@ -57,6 +66,8 @@ Just start typing in the text area below.
 <p>The reverse is: <span id="demo2"></span></p>
 
 super6
+
+
 
 </body>
 </html>
