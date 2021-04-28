@@ -54,7 +54,7 @@ $(reverse_text_box).on('keyup', function() {delay(someCallback);});
 Just start typing in the text area below.
 
 <p>A function is triggered when the user releases a key in the input field. The function outputs the actual key/letter that was released inside the text field, and also the reverse of it.</p>
-
+<p style="color:red">Note that the speed of typing needs to be reasonably slow to allow the backend program to adjust cursor position.</p>
 <form>
    <textarea id="reverse_text_box" name="reverse_text_box" dir="rtl" rows="10" cols="100" onkeyup="my_fun(this);"></textarea>
     <!--    <input type="text" name="textbox" style="direction:RTL;" onkeyup="my_fun(this);"/>  -->
@@ -64,10 +64,6 @@ Just start typing in the text area below.
 
 <p>What you wrote: <span id="demo"></span></p>
 <p>The reverse is: <span id="demo2"></span></p>
-
-super7
-
-
 
 </body>
 </html>
