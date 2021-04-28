@@ -45,7 +45,8 @@ function rtl(element)
 }
 </script>
 
-<textarea id="reverse_text_box" name="reverse_text_box" dir="rtl" rows="4" cols="50" onkeyup="rtl(this);">
+<input type="text" name="textbox" style="direction:RTL;" onkeyup="rtl(this);"/>
+
 
 <p>A function is triggered when the user releases a key in the input field. The function outputs the actual key/letter that was released inside the text field.</p>
 
@@ -60,7 +61,7 @@ function myFunction() {
 }
 </script>
 
-super7
+super1
 
 </body>
 </html>
