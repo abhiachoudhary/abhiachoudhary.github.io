@@ -42,7 +42,7 @@ function rtl(element)
   document.getElementById("demo2").innerHTML = reverseString(x);
 }
 </script>
-Just start typing in the text area:
+Just start typing in the text area below.
 
 <p>A function is triggered when the user releases a key in the input field. The function outputs the actual key/letter that was released inside the text field, and also the reverse of it.</p>
 
