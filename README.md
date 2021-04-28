@@ -56,7 +56,7 @@ Just start typing in the text area:
 <p>What you wrote: <span id="demo"></span></p>
 <p>The reverse is: <span id="demo2"></span></p>
 
-super5
+super6
 
 </body>
 </html>
