@@ -28,34 +28,35 @@ You can find my CV <a href="https://github.com/abhiachoudhary/abhiachoudhary.git
 
 <!---using https://stackoverflow.com/questions/7524855/right-to-left-text-html-input -->
 <script>
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+
 function rtl(element)
 {   
     if(element.setSelectionRange){
         element.setSelectionRange(0,0);
     }
+  var x = document.getElementById("reverse_text_box").value;
+  document.getElementById("demo").innerHTML = x;
+  document.getElementById("demo2").innerHTML = reverseString(x);
 }
 </script>
 Just start typing in the text area:
+
+<p>A function is triggered when the user releases a key in the input field. The function outputs the actual key/letter that was released inside the text field, and also the reverse of it.</p>
+
 <form>
    <textarea id="reverse_text_box" name="reverse_text_box" dir="rtl" rows="10" cols="100" onkeyup="rtl(this);"></textarea>
     <!--    <input type="text" name="textbox" style="direction:RTL;" onkeyup="rtl(this);"/>  -->
+    <br>
     <input type="reset" />
 </form>
 
-<p>A function is triggered when the user releases a key in the input field. The function outputs the actual key/letter that was released inside the text field.</p>
+<p>What you wrote: <span id="demo"></span></p>
+<p>The reverse is: <span id="demo2"></span></p>
 
-Enter your name: <input type="text" id="fname" onkeyup="myFunction()">
-
-<p>My name is: <span id="demo"></span></p>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("fname").value;
-  document.getElementById("demo").innerHTML = x;
-}
-</script>
-
-super4
+super5
 
 </body>
 </html>
