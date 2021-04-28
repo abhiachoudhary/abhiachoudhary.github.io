@@ -27,6 +27,8 @@ You can find my CV <a href="https://github.com/abhiachoudhary/abhiachoudhary.git
 <h3>Cool reverse typing box</h3>
 
 <!---using https://stackoverflow.com/questions/7524855/right-to-left-text-html-input -->
+<!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_textarea -->
+
 <script>
 function reverseString(str) {
     return str.split("").reverse().join("");
