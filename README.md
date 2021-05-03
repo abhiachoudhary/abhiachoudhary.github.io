@@ -15,58 +15,11 @@ Game theory, evolutionary biology <br />
 <!-- You can find my CV <a href="http://abhiachoudhary.github.io/docs/CV_Abhishek_Choudhary.pdf">here</a>. <br /> -->
 You can find my CV <a href="https://github.com/abhiachoudhary/abhiachoudhary.github.io/raw/master/docs/CV_Abhishek_Choudhary.pdf">here</a>. <br />
 
+
+### -------------------------------------------------------------------
+<br/>
+<br/>
+<br/>
+<br/>
 <a href="/pages/things.html" target="_top">Other things</a>
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <!-- meta name="viewport" content="width=device-width, initial-scale=1.0" -->
-  <!-- <link rel="stylesheet" href="style.css"> -->
-  <style> 
-    input, textarea { 
-    unicode-bidi:bidi-override; 
-    direction: RTL; 
-  }
-  </style>
-  <!-- title>My Website</title -->
-</head>
-<body>
-
-<h3>Cool reverse typing box</h3>
-
-<!---using https://stackoverflow.com/questions/7524855/right-to-left-text-html-input -->
-<!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_textarea -->
-
-<script>
-function reverseString(str) {
-    return str.split("").reverse().join("");
-}
-function my_fun(element)
-{   
-    //if(element.setSelectionRange){ //doing this way meant slow typing
-      //  element.setSelectionRange(0,0);
-    //}
-  var x = document.getElementById("reverse_text_box").value;
-  document.getElementById("demo2").innerHTML = x;
-  document.getElementById("demo").innerHTML = reverseString(x);
-}
-</script>
-
-Just start typing in the text area below.
-<p>A function is triggered when the user releases a key in the input field. The function outputs the actual key/letter that was released inside the text field, and also the reverse of it.</p>
-<!-- <p style="color:red">Note that the speed of typing needs to be reasonably slow to allow the backend program to adjust cursor position.</p> -->
-
-<form>
-   <textarea id="reverse_text_box" name="reverse_text_box" rows="10" cols="100" onkeyup="my_fun(this);"></textarea>
-    <!-- <textarea id="reverse_text_box" name="reverse_text_box" dir="rtl" rows="10" cols="100" onkeyup="my_fun(this);"></textarea> -->
-    <!--    <input type="text" name="textbox" style="direction:RTL;" onkeyup="my_fun(this);"/>  -->
-    <br>
-    <input type="reset" />
-</form>
-
-<p>What you wrote: <span id="demo"></span></p>
-<p>The reverse is: <span id="demo2"></span></p>
-
-
-</body>
-</html>
