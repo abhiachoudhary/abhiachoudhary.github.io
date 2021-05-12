@@ -15,10 +15,15 @@ Game theory, evolutionary biology <br />
 <!-- You can find my CV <a href="http://abhiachoudhary.github.io/docs/CV_Abhishek_Choudhary.pdf">here</a>. <br /> -->
 You can find my CV <a href="https://github.com/abhiachoudhary/abhiachoudhary.github.io/raw/master/docs/CV_Abhishek_Choudhary.pdf">here</a>. <br />
 
-
+<head>
+  <meta charset="UTF-8">
+  <meta name="verify" content="google-site-verification=doNnKd9tW52MMhqJ1uXRSts4QwikfOar1iDh09i7bSM">
+ </head>
+  
 <br/>
 <br/>
 <br/>
 <br/>
 <a href="/pages/things.html" target="_top">Other things</a>
 
+something
