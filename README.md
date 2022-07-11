@@ -9,8 +9,9 @@ Office: Amos Eaton 429 <br />
 Email: <a href="mailto:abhi.achoudhary@gmail.com">Abhishek Choudhary</a> <br />
 
 ### Research Interests
-Probability, stochastic processes, mathematical modeling <br />
-Game theory, evolutionary biology <br />
+<!-- Healthcare analytics, statistical genetics, pharmacology, <br /> -->
+Probability, stochastic processes, mathematical modeling, <br />
+evolutionary biology <br />
 
 <!-- You can find my CV <a href="http://abhiachoudhary.github.io/docs/CV_Abhishek_Choudhary.pdf">here</a>. <br /> -->
 <!-- You can find my CV <a href="https://github.com/abhiachoudhary/abhiachoudhary.github.io/raw/master/docs/CV_Abhishek_Choudhary.pdf">here</a>. <br /> -->
