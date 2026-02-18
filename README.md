@@ -28,9 +28,10 @@ evolutionary biology <br />
 #### HTML annotation tool
 Upload your .html file <a href="https://abhiachoudhary.github.io/yba.rfuncs/annotate.html">here</a> to annotate and save.
 
+### Reverse typing box
+The input text box provided <a href="/pages/things.html" target="_top">here</a> enables typing from right to left, and enables copying of the reversed text.
 
+continued..
 <br/>
 <br/>
-<a href="/pages/things.html" target="_top">Other things</a>
 
-something
